@@ -15,9 +15,14 @@ select, button {
 form {
   display: flex;
   flex-direction: column;
-  border: solid 1px dodgerBlue;
+  border: solid 1px rgb(255, 30, 90);
 }
 
 form > * {
   margin: 1rem;
+}
+
+#note{
+  margin-top: 2px;
+  height: 35px;
 }
